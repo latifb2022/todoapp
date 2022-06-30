@@ -12,7 +12,7 @@ public class DBUtils {
 
 	private static String jdbcURL = "jdbc:mysql://localhost:3306/demos?serverTimezone=UTC";
 	private static String jdbcUsername = "root";
-	private static String jdbcPassword = "FSD-Lvc-3033";
+	private static String jdbcPassword = "your-password";
 
 	public static Connection getConnection() {
 		Connection connection = null;
