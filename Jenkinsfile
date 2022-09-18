@@ -6,7 +6,7 @@ pipeline {
         sh 'mvn clean install'
         sh 'echo "Hello Jenkins"'
                 sh '''
-                    echo "Multiline shell steps works too"
+                    echo "Multiline shell steps works as well"
                     ls -lah
                 '''
       }
